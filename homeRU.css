@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+html, body {
+    font-family: 'Underdog', cursive;
+    cursor: url("media/test/penis.cur"), default;
+}
+html a, input:hover {
+    cursor: url(media/test/penis.png), pointer;
+}
+.image1 {
+    margin: 0 0 5px 5px;
+    float: right;
+    height: 40px;
+    width: 35px;
+}
+
+.ponedelnik {
+    font-size: 30px;
+    text-align: left;
+    color: #DA70D6;
+}
+.ponedelnik1 {
+    line-height: 35px;
+    text-align: left;
+    font-size: 1.0em;
+}
+
+.vtornik {
+    font-size: 30px;
+    text-align: center;
+    color: #8A2BE2;
+}
+.vtornik1 {
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+.sreda {
+    font-size: 30px;
+    text-align: right;
+    color: #ee45a29a;
+}
+.sreda1 {
+    line-height: 35px;
+    text-align: right;
+    font-size: 1.0em;
+}

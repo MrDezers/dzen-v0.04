@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap'); /*cyrillic*/
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap'); /*japanese*/
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap'); /*version number*/
+
+html {
+    cursor: url("media/test/penis.png"), default;
+    background: url("media/test/fon.png");
+    background-size: 100%;
+}
+html, a, input:hover {
+    cursor: url("media/test/penis.png"), pointer;
+}
+
+.russian-text {                             /* начало */
+    font-family: 'Underdog', cursive;
+    text-align: center;
+    font-size: 20;
+    color: #DC143C;
+    text-shadow: 1px 2px 10px;
+    transition-duration: 0.5s;
+}
+.russian-text:hover {
+    color: rgb(54, 54, 218);
+    transition-duration: 0.5s;
+}                                           /* конец */
+
+.japanese-text {                            /* начало */
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 20;
+    color: rgb(223, 215, 215);
+    text-shadow: 1px 2px 10px;
+    transition-duration: 0.5s;
+}
+.japanese-text:hover {
+    color: #DC143C;
+    transition-duration: 0.5s;
+}                                           /* конец */
+
+.img-border {
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px rgb(27, 25, 25);
+    width: 51px;
+    height: 34px;
+    transition-duration: 0.5s;
+}
+.img-border:hover {
+    box-shadow: 1px 2px 20px wheat;
+    transition-duration: 0.5s;
+}
+
+body {                                        /**/
+    width: 900px;
+    background-color: rgb(122, 71, 110);
+    padding: 0 30px 20px 20px;
+    border: 3px solid rgb(51, 8, 61);
+    margin: 0 auto;
+    border-radius: 6px;
+    background: url("media/test/2.jpg");
+}
+
+.ukraine-text {                             /* начало */
+    font-family: 'Underdog', cursive;
+    color: rgb(241, 241, 7);
+    text-align: center;
+    text-shadow: 1px 2px 10px;
+    transition-duration: 0.5s;
+}
+.ukraine-text:hover {
+    color: rgb(81, 81, 231);
+    transition-duration: 0.5s;
+}                                           /* конец */
+
+.img-update {
+    width: 75px;
+    height: 55px;
+}
+.text-update {
+    font-family: 'Underdog', cursive;
+    color: #bb1919;
+    text-shadow: 1px 2px 10px;
+    font-size: 25px;
+}
+
+.version {
+    color: rgb(54, 54, 218);
+    position: absolute;
+    bottom: 3;
+    left: 3;
+    font-size: 20px;
+    font-family: 'Griffy', cursive;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+html {
+    cursor: url("media/jesus/cursor/imgonline-com-ua-Resize-RKHgmPcN9xUtkFn.png"), default;
+    background: url(media/jesus/585cd177893d3.jpg);
+    background-size: 100%;
+}
+
+html a, input {
+    cursor: url("media/jesus/cursor/imgonline-com-ua-Resize-RKHgmPcN9xUtkFn.png"), pointer;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f4a860;
+    padding: 0 30px 20px 20px;
+    border: 5px solid rgb(7, 165, 238);
+    border-radius: 70px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 151, 238);
+    font-family: 'Caveat', cursive;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(53, 1, 243);
+    font-family: 'Caveat', cursive;
+}

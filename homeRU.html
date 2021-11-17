@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<style>
+			body {
+			  margin: 0;
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+			.topnav {
+			  overflow: hidden;
+			  background-color: #333;
+			}
+			.topnav a {
+			  float: left;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
+			.topnav a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+			.topnav a.active {
+			  background-color: #4CAF50;
+			  color: white;
+			}
+			</style>
+<script type="text/javascript">
+var countPress = 1;
+function setBg() {
+countPress++;
+	if (countPress == 2) {document.bgColor = '#f0f3f5';}
+	if (countPress == 3) {document.bgColor = '#FFC0CB';}
+	if (countPress == 4) {document.bgColor = '#FAFAD2';}
+	if (countPress == 5) {document.bgColor = '#DDA0DD'; countPress = 1;}
+}
+</script>
+		<title>Главная страница</title>
+		<link rel="shortcut icon" href="media/home/ico.png" type="image/png">
+		<link rel="stylesheet" href="homeRU.css" type="text/css">
+		<script src="homeRU.js"></script>
+	</head>		
+	<body>
+		<div class="topnav">
+			<a class="active" href="homeRU.html">Главная страница</a>
+			<a href="GoalListRU.html">Список целей</a>
+			<a href="jesus.html">Оберег</a>
+			<a href="test.html">Тест</a>
+			<a href="index.html">Выбор языка</a>
+		</div>
+		<h1><em><hr noshade size="15" color="#E9967A"><big><p align=center>Приветствие</h1></em></hr></big></p>
+		<p align=center><img 
+			class="fit-picture"
+     		src="ru/media/home/strahanet.png"
+     		alt="Ошибка!"
+			onclick="return strahanet()">
+	<hr noshade size="15" color="#E9967A">
+	<div>
+		<u style="color:#DA70D6;"><h2 class="ponedelnik">Текст:</h2></u>
+		<p class="ponedelnik1">
+			1. Текст<br>
+			2. Текст<br>
+			3. Текст</p>
+		<u style="color: #8A2BE2;"><h2 class="vtornik">Текст:</h2></u>
+		<p class="vtornik1">
+			1. Текст<br>
+			2. Текст<br>
+			3. Текст</p>
+		<u style="color: #ee45a29a;"><h2 class="sreda">Текст:</h2></u>
+		<p class="sreda1">
+			1. Текст<br>
+			2. Текст<br>
+			3. Текст</p>
+	</div>
+	<hr noshade size="25" color="#E9967A">
+	<p><input class="image1" type="image"  src="ru/media/home/143840.png" onClick="return setBg()"></p>
+<figure>
+	<p align=center>Гимн сайта</p>
+	<p align=center><audio
+        controls
+        src="ru/media/home/1000-7.mp3">
+            <code>audio</code> element.
+    </audio>
+</figure>
+	</body>
+</html>

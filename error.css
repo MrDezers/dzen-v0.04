@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+html {
+    background: url(media/test/128365-vegetarianskaya_pishha-banan-mestnoe_blyudo-pishha-frukty-3840x2160.jpg);
+    background-size: 100%;
+    background-color: rgba(223, 212, 56, 0.932);
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    border: thick double rgb(193, 212, 14);
+    border-radius: 15px;
+    width: 900px;
+    padding: 30px 30px 20px 20px;
+    margin: 0 auto;
+    background-color: rgb(255, 218, 55);
+}
+
+img {
+    padding: 0 30px 20px 22em;
+    height: 375px;
+    width: 225px;
+}
+
+h1 {
+    padding: 30px 30px 15px 20px;
+    color: rgb(184, 196, 80);
+    font-size: 60px;
+    text-align: center;
+}

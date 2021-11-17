@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+html, body {
+    font-family: 'Underdog', cursive;
+    cursor: url("media/test/penis.cur"), default;
+    background-color: #FAEBD7;
+}
+html a, input {
+    cursor: url(media/test/penis.png), pointer;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f4a860;
+    padding: 0 30px 20px 20px;
+    border: 5px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border: crimson;
+}
+
+h1 {
+    text-align: center;
+}
+.h1:hover {
+    color: blueviolet;
+}
